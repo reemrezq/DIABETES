@@ -4,7 +4,7 @@ import joblib
 
 @st.cache_resource
 def load_model():
-    return joblib.load('diabetes_model.joblib')
+    return joblib.load('diabetes_model (3).joblib')
 
 model = load_model()
 
